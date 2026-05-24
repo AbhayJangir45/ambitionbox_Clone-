@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visualizations</title>
+  <link rel="stylesheet" href="/static/visualization.css">
+</head>
+<body>
+  <div class="graphs-grid">
+    {% for graph in graphs %}
+      <div class="graph-container">
+        <img src="/static/{{ graph }}" alt="Graph">
+      </div>
+    {% endfor %}
+  </div>
+</body>
+</html>
