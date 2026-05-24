@@ -41,7 +41,7 @@ A Flask-based web application that allows users to explore, filter, and analyze 
 
 ### 📊 Results Table
 
-![Results](screenshots/results.png)
+![Results](screenshots/result.png)
 
 ### 📈 Visualization Dashboard
 
